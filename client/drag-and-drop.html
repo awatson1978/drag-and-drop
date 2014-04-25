@@ -3,28 +3,28 @@
 </head>
 
 <body>
-  {{> hello}}
+  {{> helloPage}}
 </body>
 
-<template name="hello">
-  <div class="centered unselectable">
-    <h1>Hello Dropzone!</h1>
+<template name="helloPage">
+  <div id="helloPage" class="centered unselectable">
+    <h2>{{getMouseMoveId}}</h2>
   </div>
   <hr>
   <div class="row">
     <div class="padded col col-md-3">
       <div id="leftPanel" class="unselectable dragdropzone padded panel panel-default">
-        <div id="redPanel" class="red padded draggable panel block panel-default">
+        <div id="redPanel" class="dragDropBlock red padded draggable panel block panel-default">
             red
         </div>
-        <div id="greenPanel" class="green padded draggable panel block panel-default">
+        <div id="greenPanel" class="dragDropBlock green padded draggable panel block panel-default">
             green
         </div>
       </div>
     </div>
     <div class="padded col col-md-3 col-md-offset-6">
       <div id="rightPanel" class="unselectable dragdropzone padded panel panel-default">
-        <div id="bluePanel" class="blue padded draggable panel block panel-default">
+        <div id="bluePanel" class="dragDropBlock blue padded draggable panel block panel-default">
             blue
         </div>
 
