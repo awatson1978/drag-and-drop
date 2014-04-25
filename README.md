@@ -21,5 +21,3 @@ Licensing
 ------------------------
 
 MIT License. Use as you wish, including for commercial purposes.
-See license.mit.txt for full details.
-
