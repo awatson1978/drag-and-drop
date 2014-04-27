@@ -8,11 +8,12 @@
 
 <template name="helloPage">
   <div id="helloPage" class="centered unselectable">
-    <h2>{{getMouseMoveId}}</h2>
+    <h2>{{getMouseMoveId}}</h2><br>
+    <p>Drag and drop the transparent tiles between panels.</p>
   </div>
   <hr>
   <div class="row">
-    <div class="padded col col-md-3">
+    <div class="padded col col-md-4">
       <div id="leftPanel" class="unselectable dragdropzone padded panel panel-default">
         <div id="redPanel" class="dragDropBlock red padded draggable panel block panel-default">
             red
@@ -22,7 +23,7 @@
         </div>
       </div>
     </div>
-    <div class="padded col col-md-3 col-md-offset-6">
+    <div class="padded col col-md-4 col-md-offset-4">
       <div id="rightPanel" class="unselectable dragdropzone padded panel panel-default">
         <div id="bluePanel" class="dragDropBlock blue padded draggable panel block panel-default">
             blue
