@@ -3,10 +3,8 @@ drag-and-drop
 
 Meteor drag-and-drop functionality.  Demo available at [http://drag-and-drop.meteor.com/](http://drag-and-drop.meteor.com/)  
 
-
 Installation  
 ------------------------
-Download and starting spamming people.  Enjoy your spam!  
 
 ````sh
 # Should be as simple as cloning the repository...  
