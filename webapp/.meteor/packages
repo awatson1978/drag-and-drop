@@ -6,7 +6,11 @@
 standard-app-packages
 autopublish
 insecure
-bootstrap-3
 less
 jquery
-session-extended-api
+
+clinical:session-extended-api
+clinical:nightwatch
+
+nemo64:bootstrap
+natestrauser:font-awesome
