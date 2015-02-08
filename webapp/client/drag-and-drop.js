@@ -3,11 +3,11 @@ Session.setDefault('mouseMoveElementId', 'Hello Dropzones!');
 Session.setDefault('mouseMoveX', 0);
 Session.setDefault('mouseMoveY', 0);
 
-Template.helloPage.greeting = function () {
+Template.mainLayout.greeting = function () {
   return "Welcome to drag-and-drop.";
 };
 
-Template.helloPage.rendered = function(){
+Template.mainLayout.rendered = function(){
   $(document).mousemove(function (e) {
      Session.set('movedElementId', e.target.id);
      Session.set('mouseMoveX', e.clientX);
@@ -34,7 +34,7 @@ Template.helloPage.rendered = function(){
   });
 }
 
-Template.helloPage.getMouseMoveId = function(){
+Template.mainLayout.getMouseMoveId = function(){
   if(Session.get('mouseMoveElementId')){
     return Session.get('mouseMoveElementId');
   }else{
